@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  window.setInterval(highlightNewPath, 100);
+  // window.setInterval(highlightNewPath, 100);
 
   function highlightNewPath() {
     $('.highlighted-poly')
