@@ -1,6 +1,19 @@
 .navbar{
-  border-bottom: 1px solid #ABE5AE;
+  border-bottom: 2px solid #ABE5AE;
   width: 100%;
+}
+
+#main{
+  font-family: 'Lato', sans-serif;
+  color: #ABE5AE;
+}
+
+#content{
+  padding-top: 24px;
+}
+
+.text-center{
+  text-align: center;
 }
 
 #poly-face{
