@@ -1,11 +1,11 @@
 .navbar{
-  border-bottom: 2px solid #ABE5AE;
+  border-bottom: 2px solid #457F48;
   width: 100%;
 }
 
 #main{
   font-family: 'Lato', sans-serif;
-  color: #ABE5AE;
+  color: #457F48;
 }
 
 #content{
@@ -16,23 +16,32 @@
   text-align: center;
 }
 
+.info-section{
+  padding: 24px 0;
+  border-top: 1px solid #EEE;
+}
+
 #poly-face{
   height: 20%;
   width: 20%;
   margin: 3% 40%;
 }
 
-.circle-outline{
+.triangle-poly-face{
   fill: none;
-  stroke: #ABE5AE;
-  stroke-width: 8;
+  stroke: #457F48;
+  stroke-width: 3;
+  stroke-linejoin: bevel;
   stroke-miterlimit: 10;
 }
 
-.triangle-poly-face{
+.highlighted-poly{
+  fill: #457F48;
+}
+
+.circle-outline{
   fill: none;
-  stroke: #ABE5AE;
-  stroke-width: 3;
-  stroke-linejoin: bevel;
+  stroke: #457F48;
+  stroke-width: 6;
   stroke-miterlimit: 10;
 }
