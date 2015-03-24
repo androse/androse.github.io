@@ -1,47 +1,55 @@
-.navbar{
-  border-bottom: 2px solid #457F48;
-  width: 100%;
+body{
+  background: -webkit-linear-gradient(to bottom right, #335e35, #457f48) fixed;
+  background: -moz-linear-gradient(to bottom right, #335e35, #457f48) fixed;
+  background: -ms-linear-gradient(to bottom right, #335e35, #457f48) fixed;
+  background: -o-linear-gradient(to bottom right, #335e35, #457f48) fixed;
+  background: linear-gradient(to bottom right, #335e35, #457f48) fixed;
 }
 
 #main{
   font-family: 'Lato', sans-serif;
-  color: #457F48;
+  color: #335e35;
 }
 
-#content{
-  padding-top: 24px;
-}
+#svg-container{
+  height: 100vh;
+  width: 100%;
 
-.text-center{
-  text-align: center;
-}
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
 
-.info-section{
-  padding: 24px 0;
-  border-top: 1px solid #EEE;
+  -webkit-align-items: center;
+	align-items: center;
+
+  -webkit-justify-content: center;
+  justify-content: center;
 }
 
 #poly-face{
-  height: 20%;
-  width: 20%;
-  margin: 3% 40%;
+  width: 30rem;
+  height: 30rem;
+  display: block;
 }
 
 .triangle-poly-face{
   fill: none;
-  stroke: #457F48;
-  stroke-width: 3;
+  stroke: #fef6c6;
+  stroke-width: 4;
   stroke-linejoin: bevel;
   stroke-miterlimit: 10;
 }
 
 .highlighted-poly{
-  fill: #457F48;
+  fill: #fef6c6;
 }
 
 .circle-outline{
   fill: none;
-  stroke: #457F48;
+  stroke: #fef6c6;
   stroke-width: 6;
   stroke-miterlimit: 10;
 }
