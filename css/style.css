@@ -39,7 +39,7 @@ body{
 }
 
 #text-info{
-  padding-top: 10rem;
+  padding: 10rem 5rem 0;
   display: block;
 
   -webkit-animation: reveal-text 2s;
@@ -47,6 +47,38 @@ body{
   -ms-animation: reveal-text 2s;
   -o-animation: reveal-text 2s;
   animation: reveal-text 2s;
+}
+
+.link{
+  display: inline-block;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+  height: 3.4rem;
+  border-bottom: 1rem solid black;
+  -webkit-transition: 0.5s ease;
+  transition: 0.2s ease;
+}
+
+.link a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.link:hover{
+  -webkit-transition: 0.5s ease;
+  transition: 0.2s ease;
+  border-bottom-width: 3.2rem;
+}
+
+@media (min-width: 550px) {
+  .link{
+    height: 4rem;
+  }
+
+  .link:hover{
+    border-bottom-width: 3.8rem;
+  }
 }
 
 .triangle-poly-face{
