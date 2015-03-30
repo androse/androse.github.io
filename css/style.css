@@ -39,14 +39,14 @@ body{
 }
 
 #text-info{
-  padding: 10rem 5rem 0;
+  padding: 5rem 5rem 0;
   display: block;
 
-  -webkit-animation: reveal-text 2s;
-  -moz-animation: reveal-text 2s;
-  -ms-animation: reveal-text 2s;
-  -o-animation: reveal-text 2s;
-  animation: reveal-text 2s;
+  -webkit-animation: reveal-text 1s;
+  -moz-animation: reveal-text 1s;
+  -ms-animation: reveal-text 1s;
+  -o-animation: reveal-text 1s;
+  animation: reveal-text 1s;
 }
 
 .link{
@@ -109,7 +109,7 @@ body{
 
   100% {
     opacity: 1;
-    padding-top: 10rem;
+    padding-top: 5rem;
     div { opacity: 1; }
   }
 }
@@ -124,7 +124,7 @@ body{
 
   100% {
     opacity: 1;
-    padding-top: 10rem;
+    padding-top: 5rem;
     div { opacity: 1; }
   }
 }
@@ -139,7 +139,7 @@ body{
 
   100% {
     opacity: 1;
-    padding-top: 10rem;
+    padding-top: 5rem;
     div { opacity: 1; }
   }
 }
@@ -154,7 +154,7 @@ body{
 
   100% {
     opacity: 1;
-    padding-top: 10rem;
+    padding-top: 5rem;
     div { opacity: 1; }
   }
 }
@@ -169,7 +169,7 @@ body{
 
   100% {
     opacity: 1;
-    padding-top: 10rem;
+    padding-top: 5rem;
     div { opacity: 1; }
   }
 }
