@@ -7,7 +7,7 @@ body{
 }
 
 #main{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   color: #fef6c6;
 }
 
@@ -38,7 +38,7 @@ body{
   display: block;
 }
 
-#text-info{
+#text-info-container{
   padding: 5rem 5rem 0;
   display: block;
 
@@ -50,34 +50,28 @@ body{
 }
 
 .link{
-  display: inline-block;
-  -moz-box-sizing:border-box;
-  -webkit-box-sizing:border-box;
-  box-sizing:border-box;
-  height: 3.4rem;
-  border-bottom: 1rem solid #76b579;
-  -webkit-transition: 0.5s ease;
-  transition: 0.2s ease;
-}
-
-.link a{
   color: inherit;
   text-decoration: none;
+  box-shadow: inset 0 -0.5rem 0 #76b579;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
 }
 
 .link:hover{
-  -webkit-transition: 0.5s ease;
+  color: #335e35;
+  text-decoration: none;
+  -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
-  border-bottom-width: 3.2rem;
+  box-shadow: inset 0 -3.24rem 0 #76b579;
 }
 
 @media (min-width: 550px) {
   .link{
-    height: 4rem;
+    box-shadow: inset 0 -0.6rem 0 #76b579;
   }
 
   .link:hover{
-    border-bottom-width: 3.8rem;
+    box-shadow: inset 0 -4.05rem 0 #76b579;
   }
 }
 
