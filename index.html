@@ -17,8 +17,34 @@
   <body>
     <div id="main">
       <div id="svg-container">
-        <svg id="poly-face" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" width="592" height="592" viewBox="395 71 592 592" xml:space="preserve">
-                <circle class="circle-outline" cx="691" cy="367" r="292"/>
+        <svg id="poly-face" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" width="600" height="600" viewBox="324 0 734 734" xml:space="preserve">
+                <circle class="circle-outline outline-thick4" cx="691" cy="367" r="292"/>
+                <circle class="circle-outline outline-thick2" cx="691" cy="367" r="317"/>
+                <circle class="circle-outline outline-thick1" cx="691" cy="367" r="357"/>
+                
+                <circle class="orbit-circle" cx="691" cy="659" r="8">
+                  <animateTransform attributeName="transform"
+                      type="rotate"
+                      from="0 691 367" to="360 691 367"
+                      begin="0s" dur="5s"
+                      repeatCount="indefinite" />
+                </circle>
+                
+                <circle class="orbit-circle" cx="691" cy="684" r="10">
+                  <animateTransform attributeName="transform"
+                      type="rotate"
+                      from="270 691 367" to="630 691 367"
+                      begin="0s" dur="7s"
+                      repeatCount="indefinite" />
+                </circle>
+                
+                <circle class="orbit-circle" cx="691" cy="724" r="5">
+                  <animateTransform attributeName="transform"
+                      type="rotate"
+                      from="90 691 367" to="450 691 367"
+                      begin="0s" dur="10s"
+                      repeatCount="indefinite" />
+                </circle>
 
                 <polygon class="triangle-poly-face" points="638 327 614 327 639 338 "/>
                 <polygon class="triangle-poly-face" points="638 314 614 327 638 327 "/>

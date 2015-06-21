@@ -33,13 +33,13 @@ body{
 }
 
 #poly-face{
-  width: 30rem;
-  height: 30rem;
+  width: 35rem;
+  height: 35rem;
   display: block;
 }
 
 #text-info-container{
-  padding: 5rem 5rem 0;
+  padding: 5rem 2rem 0;
   display: block;
 
   -webkit-animation: reveal-text 1s;
@@ -66,6 +66,10 @@ body{
 }
 
 @media (min-width: 550px) {
+  #text-info-container{
+    padding: 5rem 5rem 0;
+  }
+  
   .link{
     box-shadow: inset 0 -0.6rem 0 #76b579;
   }
@@ -90,8 +94,24 @@ body{
 .circle-outline{
   fill: none;
   stroke: #fef6c6;
+}
+
+.outline-thick1{
+  stroke-width: 1;
+}
+
+.outline-thick2{
+  stroke-width: 2;
+}
+
+.outline-thick4{
+  stroke-width: 4;
+}
+
+.orbit-circle{
+  fill: none;
+  stroke: #fef6c6;
   stroke-width: 6;
-  stroke-miterlimit: 10;
 }
 
 @-webkit-keyframes reveal-text{
